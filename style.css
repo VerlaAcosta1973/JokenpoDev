@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 25rem;
+    height: 25rem;
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: blue;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    transition: 0.6s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.buttons{
+    margin: 2rem 0;
+    display: flex;
+    gap: 2.8rem;
+}
+
+#rock{
+    background-color: blueviolet;
+}
+
+#paper{
+    background-color: rgb(106, 177, 35);
+}
+
+#scissors{
+    background-color: rgb(89, 89, 193);
+}
+
+p{
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 0.7rem;
+}
+
+.your-score span{
+    color: rgb(84, 84, 210);
+}
+
+.machine-score span{
+    color: rgb(208, 67, 67);
+}
